@@ -1,0 +1,17 @@
+[project]
+name = "password-auditor"
+version = "1.0.0"
+description = "Mede a força real de uma senha e checa vazamentos com k-anonymity"
+requires-python = ">=3.10"
+authors = [{ name = "Arthur Entsev" }]
+license = { text = "MIT" }
+
+[project.scripts]
+auditor = "auditor.cli:main"
+
+[tool.setuptools.package-data]
+auditor = ["data/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
