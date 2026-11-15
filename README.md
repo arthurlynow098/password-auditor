@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/banner.svg" alt="Password Auditor" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Password Auditor" width="100%"></p>
 
 <p align="center">
 <img alt="Python" src="https://img.shields.io/badge/Python-3.10+-E8B220?style=for-the-badge&logo=python&logoColor=white">
@@ -13,7 +13,7 @@
 
 <a id="sobre"></a>
 
-<p><img src="assets/secao-01.svg" alt="Sobre o projeto" width="100%"></p>
+<p><img src="assets/secao-01.png" alt="Sobre o projeto" width="100%"></p>
 
 Todo site tem aquela barrinha que fica verde quando você coloca uma letra maiúscula e um número. O problema é que `Senha@2024` deixa a barrinha verde e cai em qualquer ataque de dicionário em segundos.
 
@@ -21,7 +21,7 @@ Fiz o Password Auditor para medir a força **de verdade**. Ele calcula a entropi
 
 <a id="como-funciona"></a>
 
-<p><img src="assets/secao-02.svg" alt="Como funciona" width="100%"></p>
+<p><img src="assets/secao-02.png" alt="Como funciona" width="100%"></p>
 
 **1. Entropia bruta.** Tamanho da senha vezes log2 do tamanho do alfabeto usado. É a conta que a maioria dos medidores faz e para por aí.
 
@@ -56,7 +56,7 @@ A API nunca vê a senha nem o hash completo. Ela só sabe que você perguntou so
 
 <a id="rodando"></a>
 
-<p><img src="assets/secao-03.svg" alt="Rodando na sua máquina" width="100%"></p>
+<p><img src="assets/secao-03.png" alt="Rodando na sua máquina" width="100%"></p>
 
 Não precisa instalar nada além do Python 3.10 ou mais novo.
 
@@ -83,7 +83,7 @@ python -m pytest -q
 
 Os testes do HIBP usam uma função falsa no lugar da API, então rodam sem internet e ainda conferem que só 5 caracteres saem da máquina.
 
-<p><img src="assets/secao-04.svg" alt="Exemplo de saída" width="100%"></p>
+<p><img src="assets/secao-04.png" alt="Exemplo de saída" width="100%"></p>
 
 ```text
   senha para analisar (não aparece na tela) **********
@@ -109,7 +109,7 @@ A senha do exemplo era `flamengo10`. Pela conta ingênua ela teria 51 bits, mas 
 
 <a id="aprendi"></a>
 
-<p><img src="assets/secao-05.svg" alt="O que eu aprendi" width="100%"></p>
+<p><img src="assets/secao-05.png" alt="O que eu aprendi" width="100%"></p>
 
 - Entropia de verdade depende de como o atacante chuta, não só do alfabeto
 - Como funciona k-anonymity e por que dá para consultar um vazamento sem expor nada
@@ -125,7 +125,7 @@ Limitações que eu sei que existem
 
 <a id="estudos"></a>
 
-<p><img src="assets/secao-06.svg" alt="Estudei por aqui" width="100%"></p>
+<p><img src="assets/secao-06.png" alt="Estudei por aqui" width="100%"></p>
 
 Segui essas aulas e materiais para entender e aplicar tudo que está aqui.
 
